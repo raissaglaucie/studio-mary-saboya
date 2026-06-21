@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+  <defs>
+    <style>
+      .ms-wordmark { font-family: 'Fraunces', 'Georgia', serif; }
+    </style>
+  </defs>
+
+  <!-- scalloped outer ring -->
+  <g fill="none" stroke="#C1532B" stroke-width="1.4">
+    <circle cx="120" cy="120" r="108"/>
+    <circle cx="120" cy="120" r="100"/>
+  </g>
+  <g fill="#C1532B">
+    <!-- tick marks around the ring, evenly spaced -->
+    <g id="ticks"></g>
+  </g>
+
+  <!-- generate 36 tick marks via repeated use -->
+  <g stroke="#C1532B" stroke-width="1.2">
+    <line x1="120" y1="12" x2="120" y2="20"/>
+    <line x1="120" y1="220" x2="120" y2="228"/>
+    <line x1="12" y1="120" x2="20" y2="120"/>
+    <line x1="220" y1="120" x2="228" y2="120"/>
+    <line x1="44.5" y1="44.5" x2="50.2" y2="50.2"/>
+    <line x1="195.5" y1="44.5" x2="189.8" y2="50.2"/>
+    <line x1="44.5" y1="195.5" x2="50.2" y2="189.8"/>
+    <line x1="195.5" y1="195.5" x2="189.8" y2="189.8"/>
+    <line x1="73" y1="20.5" x2="76.6" y2="27.6"/>
+    <line x1="167" y1="20.5" x2="163.4" y2="27.6"/>
+    <line x1="73" y1="219.5" x2="76.6" y2="212.4"/>
+    <line x1="167" y1="219.5" x2="163.4" y2="212.4"/>
+    <line x1="20.5" y1="73" x2="27.6" y2="76.6"/>
+    <line x1="20.5" y1="167" x2="27.6" y2="163.4"/>
+    <line x1="219.5" y1="73" x2="212.4" y2="76.6"/>
+    <line x1="219.5" y1="167" x2="212.4" y2="163.4"/>
+  </g>
+
+  <!-- inner monogram circle -->
+  <circle cx="120" cy="120" r="84" fill="#FBF3E9" stroke="#D9A441" stroke-width="1"/>
+
+  <!-- small diamond separators on the inner ring -->
+  <rect x="116.5" y="63" width="7" height="7" fill="#D9A441" transform="rotate(45 120 66.5)"/>
+  <rect x="116.5" y="170" width="7" height="7" fill="#D9A441" transform="rotate(45 120 173.5)"/>
+
+  <!-- monogram MS -->
+  <text x="120" y="132" text-anchor="middle" class="ms-wordmark" font-size="72" fill="#1B2E35" font-weight="500" letter-spacing="-3">MS</text>
+
+  <!-- single hair-strand flourish beneath monogram -->
+  <path d="M 76 162 Q 96 178, 120 173 Q 148 167, 164 154" fill="none" stroke="#2F5D6B" stroke-width="1.8" stroke-linecap="round"/>
+
+  <!-- small label ring text -->
+  <text x="120" y="56" text-anchor="middle" font-family="'Work Sans', Arial, sans-serif" font-size="10.5" letter-spacing="4" fill="#1B2E35">STUDIO</text>
+  <text x="120" y="190" text-anchor="middle" font-family="'Work Sans', Arial, sans-serif" font-size="10.5" letter-spacing="3.5" fill="#1B2E35">MARY SABOYA</text>
+</svg>

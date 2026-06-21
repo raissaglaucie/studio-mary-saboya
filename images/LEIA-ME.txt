@@ -1,0 +1,7 @@
+Coloque aqui as fotos originais da Mary e do studio (formato .jpg ou .png, nomes sem espaço/acento).
+
+Depois, no index.html:
+- Foto do "Sobre": substitua o <svg class="ring"> dentro de <div class="about-portrait"> por <img src="images/seu-arquivo.jpg" alt="...">
+- Fotos de "Trabalhos": dentro de cada <div class="gallery-tile">, adicione <img src="images/seu-arquivo.jpg" alt="..."> antes do <span class="tag">
+
+Veja o README.md na raiz do projeto para o passo a passo completo.
